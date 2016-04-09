@@ -106,10 +106,14 @@ body {
     border: 1px solid red;
 }
 
+a {
+  text-decoration: none;
+}
+
 .main-header {
     background-color: #000;
     color: #fff;
-    padding: 1.2em;
+    padding: 1.5em 1.5em 1.5em 2em;
     position: fixed;
     width: 100%;
     top: 0;
@@ -118,7 +122,7 @@ body {
 
 .main-header h1 {
     border: 1px solid blue;
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin: 0;
     text-transform: uppercase;
 }
@@ -131,8 +135,7 @@ body {
   font-size: larger;
 }
 
-.main-header a {
-  text-decoration: none;
+.main-header .menu-btn {
   color: #fff;
 }
 
@@ -165,6 +168,27 @@ body {
 .main-banner h2, 
 .main-banner p {
   margin: 0;
+}
+
+.main-banner h2 {
+  font-size: 4em;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+
+.act-btn {
+  border: 3px solid #fff;
+  padding: .5em 1em;
+  font-size: 2em;
+  display: inline-block;
+  margin-top: 1em;
+  color: #fff;
+}
+
+.act-btn:hover {
+  border: 3px solid #fff;
+  background-color: #fff;
+  color: #000;
 }
 
 
