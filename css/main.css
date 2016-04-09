@@ -193,6 +193,18 @@ a {
   color: #000;
 }
 
+.about h2, 
+.our-work h2 h3 {
+  font-size: 2em;
+  color: 000;
+}
+
+.about p {
+  color: #000;
+  line-height: 1em;
+  margin: 1.25em 1.25em 1.25em .625em;
+}
+
 
 
 
