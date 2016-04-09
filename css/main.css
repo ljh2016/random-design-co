@@ -131,6 +131,43 @@ body {
   font-size: larger;
 }
 
+.main-header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.intro .banner-image {
+  max-width: 100%;
+}
+
+.intro {
+  color: #fff;
+  position: relative;
+}
+
+.intro .banner-image {
+  border: none;
+  display: block;
+  z-index: -10;
+  position: relative;
+  width: 100%;
+}
+
+.main-banner {
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.main-banner h2, 
+.main-banner p {
+  margin: 0;
+}
+
+
 
 
 
