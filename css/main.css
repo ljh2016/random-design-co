@@ -221,6 +221,8 @@ a {
 .our-work {
   padding-left: 1em;
   padding-right: 1em;
+  padding-bottom: 2em;
+  overflow: auto;
 }
 
 .projects {
@@ -260,19 +262,13 @@ a {
   width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-.main-footer {
+.main-footer p {
+  border-top: 2px solid #E1E1E1;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: 0;
   clear: both;
 }
 
