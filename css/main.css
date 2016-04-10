@@ -149,7 +149,7 @@ a {
   position: relative;
 }
 
-.intro .banner-image {
+.banner-image {
   display: block;
   z-index: -10;
   position: relative;
@@ -209,20 +209,25 @@ a {
 }
 
 .projects {
+  position: relative;
+  color: #fff;
+}
+
+.projects {
   border: 1px solid red;
   width: 50%;
   float: left;
 }
 
-.projects .project-image {
+.projects {
+  background: hsla(0, 5%, 50%);
+}
+
+.project-image {
   display: block;
   z-index: -10;
   position: relative;
   width: 100%;
-}
-
-.project-image {
-  background: hsla(0, 5%, 50%);
 }
 
 .project-title {
