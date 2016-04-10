@@ -102,10 +102,6 @@ html {
     background-color: #fff;
 }
 
-body {
-    border: 1px solid red;
-}
-
 a {
   text-decoration: none;
 }
@@ -122,10 +118,9 @@ a {
 }
 
 .main-header h1 {
-    border: 1px solid blue;
-    font-size: 1.4em;
-    margin: 0;
-    text-transform: uppercase;
+  font-size: 1.4em;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 .main-header span {
@@ -204,10 +199,10 @@ a {
   padding: 0 1.25em 2.25em 1em;
   margin: 0;
   font-size: 1.4em;
-  border-bottom: 2px solid #E1E1E1;
 }
 
 .our-work h2 {
+  text-transform: uppercase;
   font-size: 1.5em;
   color: #000;
   margin: 0;
@@ -223,11 +218,12 @@ a {
   padding-right: 1em;
   padding-bottom: 2em;
   overflow: auto;
+  border-bottom: 2px solid #E1E1E1;
+  border-top: 2px solid #E1E1E1;
 }
 
 .projects {
   position: relative;
-  border: 1px solid red;
   width: 50%;
   float: left;
   padding: .0625em;
@@ -243,7 +239,6 @@ a {
 
 .projects a:hover {
   color: #fff;
-  background-color: none;
 }
 
 .project-image {
@@ -263,7 +258,6 @@ a {
 }
 
 .main-footer p {
-  border-top: 2px solid #E1E1E1;
   font-size: 1.5em;
   text-align: center;
   padding-top: 1em;
@@ -271,23 +265,6 @@ a {
   margin: 0;
   clear: both;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
