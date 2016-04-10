@@ -210,6 +210,12 @@ a {
   border-bottom: 2px solid #E1E1E1;
 }
 
+.projects {
+  border: 1px solid red;
+  width: 50%;
+  float: left;
+}
+
 
 
 
