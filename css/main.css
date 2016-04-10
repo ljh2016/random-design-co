@@ -150,7 +150,6 @@ a {
 }
 
 .intro .banner-image {
-  border: none;
   display: block;
   z-index: -10;
   position: relative;
@@ -158,7 +157,6 @@ a {
 }
 
 .main-banner {
-  border: none;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -214,6 +212,40 @@ a {
   border: 1px solid red;
   width: 50%;
   float: left;
+}
+
+.projects .project-image {
+  display: block;
+  z-index: -10;
+  position: relative;
+  width: 100%;
+}
+
+.project-image {
+  background: hsla(0, 5%, 50%);
+}
+
+.project-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main-footer {
+  clear: both;
 }
 
 
