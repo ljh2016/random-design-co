@@ -124,7 +124,7 @@ img {
 .main-header {
     background-color: #000;
     color: #fff;
-    padding: 1em;
+    padding: 1.25em;
     position: fixed;
     width: 100%;
     top: 0;
@@ -140,7 +140,7 @@ img {
   position: absolute;
   top: 1em;
   right: 1em;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 .main-header .menu-btn {
@@ -157,7 +157,7 @@ img {
 
 .act-btn {
   font-size: 1.5em;
-  border: 0.125 solid #000;
+  border: 0.125em solid #fff;
   padding: 0.5em 1em;
   color: #000;
   display: inline-block;
@@ -190,25 +190,19 @@ img {
   color: #fff;
 }
 
-.banner-info h2 {
+.jumbotron h2 {
   font-size: 3em;
   line-height: 1em;
   margin-top: 0;
+  color: #fff;
 } 
-
-.page-section h2 {
-  font-size: 1em;
-  color: #000;
-  margin: 0;
-  padding: 2em 0 0 0;
-}
 
 .jumbotron .banner-info .act-btn {
   color: #fff;
   border-color: #fff;
 }
 
-.jumbotron .banner-info .act-btn {
+.jumbotron .banner-info .act-btn:hover {
   background-color: #fff;
   color: #000;
 }
