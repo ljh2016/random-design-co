@@ -103,7 +103,6 @@ html {
 }
 
 body {
-  padding: 1em;
   padding-top: 3em;
 }
 
@@ -130,15 +129,15 @@ img {
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 1;  
 }
 
 .main-header h1 {
   margin: 0;
 }
 
-.main-header span {
-  position: fixed;
+.main-header .main-nav {
+  position: absolute;
   top: 1em;
   right: 1em;
   font-size: 1.5em;
@@ -149,6 +148,25 @@ img {
 }
 
 /* end header */
+
+.page-section {
+  color: #000;
+  padding: 1em ;
+  border-bottom: 2px solid #E1E1E1;
+}
+
+.act-btn {
+  font-size: 1.5em;
+  border: 0.125 solid #000;
+  padding: 0.5em 1em;
+  color: #000;
+  display: inline-block;
+}
+
+.act-btn:hover {
+  background-color: #fff;
+  color: #000; 
+}
 
 .jumbotron {
   padding: 0;
@@ -172,42 +190,27 @@ img {
   color: #fff;
 }
 
-.banner-info h2, 
-.banner-info p {
-  margin: 0;
-  padding: 0;
-}
-
 .banner-info h2 {
   font-size: 3em;
   line-height: 1em;
-  padding: 1em;
-}
-
-.jumbotron .banner-info .act-btn {
-  border: 3px solid #fff;
-  padding: 1em 1.4em;
-  font-size: 1.25em;
-  display: inline-block;
-  color: #fff;
-}
-
-.jumbotron .banner-info .act-btn:hover {
-  background-color: #fff;
-  color: #000; 
-}
-
-.page-section {
-  color: #000;
-  padding: 0;
-  border-bottom: 2px solid #E1E1E1;
-}
+  margin-top: 0;
+} 
 
 .page-section h2 {
   font-size: 1em;
   color: #000;
   margin: 0;
   padding: 2em 0 0 0;
+}
+
+.jumbotron .banner-info .act-btn {
+  color: #fff;
+  border-color: #fff;
+}
+
+.jumbotron .banner-info .act-btn {
+  background-color: #fff;
+  color: #000;
 }
 
 /* grid */
